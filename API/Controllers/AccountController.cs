@@ -16,6 +16,10 @@ namespace API.Controllers
             _signInManager = signInManager;
             _userManager = userManager;
         }
+        private void testMethode()
+        {
+            
+        }
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
